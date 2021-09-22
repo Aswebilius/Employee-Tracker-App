@@ -18,16 +18,12 @@ VALUES
 
 INSERT INTO employees(first_name, last_name, role_id) 
 VALUES
-('Gordon', 'Ramsay', 1),
+('Gordon', 'Ramsay', NULL),
 ('Scott', 'Perellas', 2),
 ('Andrew', 'Smith', 3),
 ('Cory', 'Finnigan', 4),
-('Alicia', 'Harding', 4),
-('Matthew', 'Kahn', 5),
-('Michael', 'Porter', 5),
-('Steven', 'Marston', 6),
-('John', 'Howard', 6),
-
-
-
-UPDATE `employee_db`.`employees` SET `manager_id` = '1' WHERE (`id` > '1');
+('Alicia', 'Harding', 5),
+('Matthew', 'Kahn', 6),
+('Michael', 'Porter', 7),
+('Steven', 'Marston', 8),
+('John', 'Howard', 9),
