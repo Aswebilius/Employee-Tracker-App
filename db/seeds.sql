@@ -1,12 +1,11 @@
 INSERT INTO departments(department_name)
 VALUES 
-('Management'),
-('Sales'),
-('Warehouse'),
-('Human Resources'),
-('Quality Control'),
-('Office Management'),
-('Accounting');
+('Owner'),
+('Executive Chef'),
+('Sous Chef'),
+('Cook 1'),
+('Cook 2'),
+('Cook 3');
 
 INSERT INTO roles(title, salary, department_id)
 VALUES
